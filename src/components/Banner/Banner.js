@@ -1,24 +1,21 @@
 import React from "react";
 import "./Banner.css";
 
-function Banner({ img, title }) {
+function Banner({ img, title, text }) {
   return (
     <>
       <div className="banner" style={{ backgroundImage: `url(${img})` }}>
-        <div className="banner__title">
-          <div className="container">
-            <p>{title}</p>
+        {/* <div className="banner__title"> */}
+        <div className="banner__container">
+          <div className="banner__title-wrapper">
+            <p className="banner__title">{title}</p>
           </div>
         </div>
+        {/* </div> */}
       </div>
       <div className="container">
         <div className="banner__wrapper">
-          <p className="banner__text">
-            Nokia is a B2B technology innovation leader pioneering the future
-            where networks meet cloud. We are making high-performance
-            connectivity more consumable and sustainable while also securely
-            opening up networks for innovation and collaboration.
-          </p>
+          <p className="banner__text">{text}</p>
         </div>
       </div>
     </>

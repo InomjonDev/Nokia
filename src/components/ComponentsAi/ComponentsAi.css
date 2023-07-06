@@ -1,0 +1,42 @@
+.componentai {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.componentai__wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.componentai__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.componentai__item {
+  padding: 24px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.componentai__item:hover {
+  cursor: pointer;
+}
+
+.componentai__item.active {
+  color: #0065ed;
+  border-bottom: 3px solid #0065ed;
+}
+
+@media screen and (max-width: 1380px) {
+  .componentai {
+    display: none;
+  }
+}
