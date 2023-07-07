@@ -5,7 +5,6 @@
   justify-content: flex-end;
   padding: 0 24px;
   background-color: #f3f3f3;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar__top-list {
@@ -15,7 +14,7 @@
 
 .navbar__top-item {
   padding: 8px 24px;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
 }
 
@@ -35,7 +34,6 @@
   justify-content: space-between;
   height: 63px;
   padding: 0 48px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar__bottom-list {
@@ -45,7 +43,8 @@
 
 .navbar__bottom-list a {
   padding: 20px 26px;
-  color: #0065ed;
+  color: #005aff;
+  font-weight: 300;
 }
 
 .navbar__bottom-languages {
@@ -79,7 +78,7 @@
   border: none;
   font-size: 25px;
   background-color: transparent;
-  color: #0065ed;
+  color: #005aff;
 }
 /* ===== NavbarBottom - END ===== */
 
