@@ -1,5 +1,5 @@
 .bg {
-  width: 100%;
+  min-width: 100%;
   background-color: #f9f9f9;
 }
 
@@ -74,4 +74,125 @@
 .footer__main-links {
   display: flex;
   align-items: center;
+}
+
+.footer__main-links-list {
+  display: flex;
+  align-items: center;
+}
+
+.footer__main-links-item {
+  color: #005aff;
+  font-size: 18px;
+  padding-right: 48px;
+}
+
+.footer__main-icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer__main-btn-block {
+  margin: 0 24px 0 auto;
+}
+
+.footer__main-btn {
+  padding: 13px 24px;
+  font-size: 18px;
+  color: #005aff;
+  font-weight: bold;
+  border: 1px solid #005aff;
+  border-radius: 5px;
+}
+
+.footer__main-list {
+  display: flex;
+  align-items: center;
+}
+
+.footer__main-list li {
+  padding: 0 8px;
+}
+
+.footer__main-item {
+  font-size: 18px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.footer__highlites {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 48px 0;
+}
+
+.footer__highlites-item {
+  padding: 0 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__top {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer__bottom-actions {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .footer__bottom-actions-item {
+    margin-bottom: 30px;
+  }
+  .footer__main {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .footer__main-links {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .footer__main-icons {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .footer__main-btn-block {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  .footer__main-btn {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .footer__highlites {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .footer__highlites-item,
+  .footer__highlites-text {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer__main-links-item {
+    font-size: 16px;
+  }
+  .footer__main-btn {
+    width: 0;
+  }
 }

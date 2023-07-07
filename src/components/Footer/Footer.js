@@ -43,31 +43,52 @@ function Footer() {
         <hr />
         <div className="footer__main">
           <div className="footer__main-links">
-            <a href="#" className="footer__main-item">
-              Contact us
-            </a>
-            <a href="#">Support</a>
-            <a href="#">Extranet Access</a>
+            <ul className="footer__main-links-list">
+              <li className="footer__main-links-item fwb">
+                <a href="#">Contact us</a>
+              </li>
+              <li className="footer__main-links-item fwb">
+                <a href="#">Support</a>
+              </li>
+              <li className="footer__main-links-item fwb">
+                <a href="#">Extranet Access</a>
+              </li>
+            </ul>
           </div>
           <div className="footer__main-icons">
-            <a href="#" className="footer__main-btn">
-              Subscribe for our latest news
-            </a>
-            <a href="#" className="footer__main-item">
-              <AiOutlineInstagram />
-            </a>
-            <a href="#" className="footer__main-item">
-              <AiFillYoutube />
-            </a>
-            <a href="#" className="footer__main-item">
-              <AiOutlineTwitter />
-            </a>
-            <a href="#" className="footer__main-item">
-              <BiLogoFacebook />
-            </a>
-            <a href="#" className="footer__main-item">
-              <BiLogoLinkedin />
-            </a>
+            <div className="footer__main-btn-block">
+              <a href="#" className="footer__main-btn">
+                Subscribe for our latest news
+              </a>
+            </div>
+            <ul className="footer__main-list">
+              <li>
+                <a href="#" className="footer__main-item">
+                  <AiOutlineInstagram />
+                </a>
+              </li>
+              <li>
+                <a href="#" className="footer__main-item">
+                  <AiFillYoutube />
+                </a>
+              </li>
+              <li>
+                <a href="#" className="footer__main-item">
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href="#" className="footer__main-item">
+                  <BiLogoFacebook />
+                </a>
+              </li>
+              <li>
+                <a href="#" className="footer__main-item">
+                  <BiLogoLinkedin />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
         <hr />
