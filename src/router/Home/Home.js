@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "../../components/Banner/Banner";
 import bg1 from "../../assets/banner/bg1.webp";
 import Card from "../../components/Card/Card";
-import { CardPro } from "../../static";
+import { CardPro } from "../../static/index";
 import ComponentsAi from "../../components/ComponentsAi/ComponentsAi";
 
 function Home() {
