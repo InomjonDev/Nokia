@@ -20,20 +20,15 @@ function BussinesSuccess() {
       title: "Learning delivery",
       desc: "Full spectrum learning offering web-based, instructor-led, virtual instructor-led and blended learning. Cutting-edge delivery methods to match your learning preferences and busy schedules.",
     },
+
     {
-      id: "bus-3",
-      icon: bs1,
-      title: "Learning delivery",
-      desc: "Full spectrum learning offering web-based, instructor-led, virtual instructor-led and blended learning. Cutting-edge delivery methods to match your learning preferences and busy schedules.",
-    },
-    {
-      id: "bus-4",
+      id: "bus-5",
       icon: <AiOutlineAppstoreAdd />,
       title: "Learning store",
       desc: `The Nokia learning store is a simple and accessible entry point to learning solutions covering Nokia products and technology. Stay up-to-date by exploring our "shop window" of new and trending learning offerings.`,
     },
     {
-      id: "bus-5",
+      id: "bus-6",
       icon: <AiOutlineAppstoreAdd />,
       title: "Nokia learning and development hub",
       desc: "The learning and development hub provides access to the full Nokia learning library and learning communities. Enter here to track, launch and record your learning history.",

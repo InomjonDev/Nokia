@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   padding: 24px 0;
 }
@@ -58,7 +57,6 @@
 
 .minicard__title h2 {
   font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
 }
 

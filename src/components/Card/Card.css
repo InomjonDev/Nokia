@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   padding: 24px 0;
 }
@@ -21,6 +20,7 @@
   flex-direction: column;
   max-width: 450px;
   padding: 0 16px;
+  margin-bottom: 20px;
 }
 
 /* .card__item:first-child {
@@ -52,12 +52,13 @@
   display: flex;
   align-items: center;
   margin-bottom: 8px;
+  font-family: "Roboto", sans-serif;
 }
 
 .card__title h2 {
-  font-size: 32px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
 }
 
 .card__title svg {
@@ -69,6 +70,7 @@
 
 .card__text {
   font-size: 18px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 1400px) {
